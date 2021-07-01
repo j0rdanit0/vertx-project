@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.j0rdanit0'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.vertx:vertx-core:4.1.0'
+    compile 'io.vertx:vertx-web:4.1.0'
+    compile 'org.projectlombok:lombok:1.18.18'
+    annotationProcessor 'org.projectlombok:lombok:1.18.18'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
+    compile 'io.vertx:vertx-config:4.1.0'
+
+    testCompile 'io.vertx:vertx-web-client:4.1.0'
+    testCompile 'io.vertx:vertx-unit:4.1.0'
+    testCompile 'io.vertx:vertx-junit5:4.1.0'
+    testCompile 'junit:junit:4.12'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}

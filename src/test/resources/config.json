@@ -1,0 +1,5 @@
+{
+   "port": 8080,
+   "apiBase": "/api/library",
+   "requestBodyLimit": 1000
+}
