@@ -1,5 +1,5 @@
 # vertx-project
-![Build](https://github.com/j0rdanit0/vertx-project/workflows/Build/badge.svg)
+![Build](https://github.com/j0rdanit0/vertx-project/workflows/build.yml/badge.svg)
 
 Sample RESTful HTTP web service written with the Vert.x Java API.
 
